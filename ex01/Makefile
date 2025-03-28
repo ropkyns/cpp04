@@ -6,7 +6,7 @@
 #    By: paulmart <paulmart@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/25 13:45:09 by paulmart          #+#    #+#              #
-#    Updated: 2025/03/25 17:50:49 by paulmart         ###   ########.fr        #
+#    Updated: 2025/03/28 14:31:19 by paulmart         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ SRC_DIR = src/
 OBJ_DIR = obj
 
 SRC_FILES = \
+	Brain.cpp \
 	WrongAnimal.cpp \
 	WrongCat.cpp \
 	Animal.cpp \

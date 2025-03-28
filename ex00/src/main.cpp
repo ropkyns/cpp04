@@ -6,7 +6,7 @@
 /*   By: paulmart <paulmart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/25 13:47:08 by paulmart          #+#    #+#             */
-/*   Updated: 2025/03/25 17:30:48 by paulmart         ###   ########.fr       */
+/*   Updated: 2025/03/28 14:55:48 by paulmart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,12 @@ int main()
 	
 	WrongCat y;
 	y.makeSound();
+
+	delete meta;
+	delete j;
+	delete i;
+	delete beta;
+	delete x;
 
 	return 0;
 }
